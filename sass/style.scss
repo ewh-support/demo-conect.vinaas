@@ -1,0 +1,77 @@
+#my-scrollbar{
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    font-family: 'Roboto-Bold';
+}
+a, a:visited, a:active, a:hover {
+    color: inherit;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    font-family: 'Roboto-Light';
+}
+img{
+    max-width: 100%;
+}
+// -----FONT CSS-------
+@font-face {
+    font-family: 'Roboto-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url(./../fonts/Roboto-Bold.woff) format('woff'); /* For IE6-8 */
+    src: local('Roboto-Bold'),
+         url(./../fonts/Roboto-Bold.ttf) format('truetype'),
+         url(./../fonts/Roboto-Bold.woff2) format('woff2'),
+         url(./../fonts/Roboto-Bold.woff) format('woff'),;
+}
+@font-face {
+    font-family: 'Roboto-Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: url(./../fonts/Roboto-Medium.woff) format('woff'); /* For IE6-8 */
+    src: local('Roboto-Bold'),
+         url(./../fonts/Roboto-Medium.ttf) format('truetype'),
+         url(./../fonts/Roboto-Medium.woff2) format('woff2'),
+         url(./../fonts/Roboto-Medium.woff) format('woff'),;
+}
+@font-face {
+    font-family: 'Roboto-Light';
+    font-style: normal;
+    font-weight: normal;
+    src: url(./../fonts/Roboto-Light.woff) format('woff'); /* For IE6-8 */
+    src: local('Roboto-Bold'),
+         url(./../fonts/Roboto-Light.ttf) format('truetype'),
+         url(./../fonts/Roboto-Light.woff2) format('woff2'),
+         url(./../fonts/Roboto-Light.woff) format('woff'),;
+}
+.font-Roboto-Bold{
+    font-family: 'Roboto-Bold';
+}
+.font-Roboto-Medium{
+    font-family: 'Roboto-Medium';
+}
+.font-Roboto-Light{
+    font-family: 'Roboto-Light';
+}
+.fs-64{
+    font-size: 64px;
+}
+.fs-24{
+    font-size: 24px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.marvel-device.note8 {
+    width: 270px;
+    height: 480px;
+}
+.marvel-device.note8 .more-sensors{
+    left: 70%
+}
+.marvel-device.note8 .sensors {
+    left: 85px;
+}
+.marvel-device.note8 .camera {
+    left: 55px;
+}
