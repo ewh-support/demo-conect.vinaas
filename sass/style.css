@@ -1,0 +1,124 @@
+a,
+a:visited,
+a:active,
+a:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: url(./../fonts/Roboto-Bold.woff) format("woff");
+  /* For IE6-8 */
+  src: local("Roboto-Bold"), url(./../fonts/Roboto-Bold.ttf) format("truetype"), url(./../fonts/Roboto-Bold.woff2) format("woff2"), url(./../fonts/Roboto-Bold.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: url(./../fonts/Roboto-Medium.woff) format("woff");
+  /* For IE6-8 */
+  src: local("Roboto-Bold"), url(./../fonts/Roboto-Medium.ttf) format("truetype"), url(./../fonts/Roboto-Medium.woff2) format("woff2"), url(./../fonts/Roboto-Medium.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url(./../fonts/Roboto-Regular.ttf) format("truetype");
+  /* For IE6-8 */
+  src: local("Roboto-Regular"), url(./../fonts/Roboto-Regular.ttf) format("truetype");
+}
+
+.font-Roboto-Bold {
+  font-family: 'Roboto-Bold';
+}
+
+.font-Roboto-Medium {
+  font-family: 'Roboto-Medium';
+}
+
+.font-Roboto-Regular {
+  font-family: 'Roboto-Regular';
+}
+
+.fs-64 {
+  font-size: 64px;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.color-xanh-maplife {
+  color: #00427a;
+}
+
+.color-cam-maplife {
+  color: #f6931d;
+}
+
+.introduce h5 {
+  position: relative;
+}
+
+.introduce h5:after {
+  content: "";
+  position: absolute;
+  width: 85px;
+  height: 4px;
+  background-color: #00427a;
+  bottom: -5px;
+  transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  left: 32px;
+}
+
+.introduce h5:before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 4px;
+  background-color: #f6931d;
+  bottom: -5px;
+  transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+}
+
+#summary p.collapse:not(.show) {
+  height: 42px !important;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+#summary p.collapsing {
+  min-height: 42px !important;
+}
+
+#summary a.collapsed:after {
+  content: '+ Read More';
+}
+
+#summary a:not(.collapsed):after {
+  content: '- Read Less';
+}
+/*# sourceMappingURL=style.css.map */
